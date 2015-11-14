@@ -25,6 +25,7 @@
     "filelist"
   ],
   "dependencies": {
+    "chalk": "^1.0.0",
     "gulp-util": "^3.0.4",
     "lodash.defaults": "^3.1.1",
     "lodash.includes": "^3.1.2"
