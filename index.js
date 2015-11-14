@@ -26,11 +26,6 @@ module.exports = function (options) {
                 return callback(new gutil.PluginError(pluginName), msg);
             }
 
-            // //skip 404 file
-            // if (/404\.html?$/i.test(file.relative)) {
-            //     return callback();
-            // }
-
             if (!firstFile) {
                 firstFile = file;
             }
