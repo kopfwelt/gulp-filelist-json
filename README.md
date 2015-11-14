@@ -1,0 +1,1 @@
+#gulp-filelist-json [![Build Status](https://travis-ci.org/kopfwelt/gulp-filelist-json.svg?branch=master)](https://travis-ci.org/kopfwelt/gulp-filelist-json) [![Dependencies](https://david-dm.org/kopfwelt/gulp-filelist-json.svg)](https://david-dm.org/kopfwelt/gulp-filelist-json)

@@ -1,0 +1,38 @@
+{
+  "name": "gulp-filelist-json",
+  "version": "0.0.1",
+  "description": "Generates a list of given files serialized in a json file",
+  "repository": "kopfwelt/gulp-filelist-json",
+  "license": "MIT",
+  "author": {
+    "name": "Steve Sinnwell",
+    "email": "steve@kopfwelt.com",
+    "url": "http://kopfwelt.com"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec test/*.spec.js"
+  },
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "filelist"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.4",
+    "lodash.defaults": "^3.1.1",
+    "lodash.includes": "^3.1.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-rename": "^1.2.2",
+    "mocha": "^2.2.4",
+    "should": "^7.0.2"
+  }
+}

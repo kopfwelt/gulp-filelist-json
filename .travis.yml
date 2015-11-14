@@ -1,0 +1,24 @@
+sudo: false
+language: node_js
+node_js:
+  - '5.0'
+  - '4.2'
+  - '4.1'
+  - '4.0'
+  - '0.12'
+
+# whitelist
+branches:
+  only:
+    - master
+
+#before_install:
+#  -
+before_script:
+  - npm install -g gulp xo babel
+# install: npm install
+
+
+notifications:
+  email:
+    - kontrolle@kopfwelt.com
